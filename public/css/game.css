@@ -1,0 +1,218 @@
+@font-face {
+	font-family: 'PressStart2PRegular';
+	src:url("../font/PressStart2P.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    font-family: PressStart2PRegular;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.body-default {
+    background-color: #ddf8ff;
+    background-image: url('../images/bg_bottom.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#game {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#game-container {
+    position: relative;
+    text-align: center;
+}
+
+.menu-item {
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: PressStart2PRegular;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 310px;
+}
+
+button:hover {
+  background-color: white;
+}
+
+.menu-title {
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.menu-title > span {
+    font-size: 32px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+span.c1 {
+    color: #0b9bd7;
+}
+
+span.c2 {
+    color: #fbcf08;
+}
+
+span.c3 {
+    color: #e42926;
+}
+
+span.c4 {
+    color: #45af49;
+}
+
+span.c5 {
+    color: #fbcf08;
+}
+
+span.c6 {
+    color: #e42926;
+}
+
+span.c7 {
+    color: #45af49;
+}
+
+.player-selection {
+    margin: auto auto;
+    width: 630px;
+}
+
+.player-selection > .player-option-l {
+    float: left;
+}
+
+.player-selection > .player-option-r {
+    float: right;
+}
+
+.level-selection-list {
+    list-style-type: none;
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+
+.level-selection-list > li > button {
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: PressStart2PRegular;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 310px;
+}
+
+.level-selection-list > li > button > p {
+    -webkit-margin-before: 6px;
+    -webkit-margin-after: 6px;
+}
+
+div.shop {
+    display: block;
+    width: 100%;
+    height: 80%;
+}
+
+div.shop > .head {
+    height: 75px;
+}
+
+div.shop > .head > .left {
+    float: left;
+    font-size: 32px;
+    height: 75px;
+    text-align: left;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    width: 25%;
+}
+
+div.shop > .head > .left > .txt-pos {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+div.shop > .head > .center {
+    float: left;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 26px;
+    text-align: center;
+    width: 50%;
+}
+
+div.shop > .head > .right {
+    cursor: pointer;
+    float: right;
+    font-size: 26px;
+    height: 75px;
+    padding-top: 25px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    width: 25%;
+}
+
+div.shop > .shop-center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 630px;
+}
+
+div.shop > .shop-center > .shelf {
+    float: left;
+    margin-bottom: 20px;
+    width: 630px;
+}
+
+div.shop > .shop-center > .shelf > .item-l {
+    float: left;
+}
+
+div.shop > .shop-center > .shelf > .item-r {
+    float: right;
+}
+
+.product {
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: PressStart2PRegular;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 310px;
+}
+
+.credits {
+    margin: auto auto;
+    width: 730px;
+    color:white;
+}
+
+.credits > h2 {
+    margin-top: 5em;
+}
+
+.credits > p {
+    margin-top: 2em;
+}
+
+.loading-screen > div.level-description {
+    height: 768px;
+    margin: auto auto;
+    width: 730px;
+    color:white;
+}
