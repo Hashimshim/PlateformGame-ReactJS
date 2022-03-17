@@ -1,8 +1,7 @@
-# Paulix
 
-Paulix is a simple JavaScript based Jump And Run game, written for and dedicated to Paula and Felix Werner.
 
-[![Watch the video](https://img.youtube.com/vi/9it4nePtYUA/maxresdefault.jpg)](https://youtu.be/9it4nePtYUA)
+This is a simple JavaScript based Jump And Run game.
+
 
 The project uses Node.js and React. To start hacking the game (e.g. to add new levels) you need to:
 
