@@ -1,6 +1,6 @@
 
 
-This is a simple JavaScript based Jump And Run game.
+This is a JavaScript based Jump And Run game with a lot of flexibility to customise levels.
 
 
 The project uses Node.js and React. To start hacking the game (e.g. to add new levels) you need to:
